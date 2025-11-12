@@ -16,5 +16,13 @@ public class Multiples {
             int count15 = (n - 1) / (a * b);
             return count3 + count5 - count15;
         }
+
+    }
+    public static int multiples() {
+
+        int count3 = (1000 - 1) / 3;
+        int count5 = (1000 - 1) / 5;
+        int count15 = (1000 - 1) / (3 * 5);
+        return count3 + count5 - count15;
     }
 }
